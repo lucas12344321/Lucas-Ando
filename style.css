@@ -1,5 +1,13 @@
-.titulo-princpal{
-    background-color: gray;
-    height: 20px;
-    width: 50px;
+:root {
+    --cor-de-fundo: #1e1e1e;
+    --verde: #5FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58,55,94,0,5);
+    --texto-fundo: rgba(58,55,94,0,3);
+}
+
+.titulo-principal{
+    background-color: var(--cor-dde-fundo);
+    color: var(--branco);
 }
