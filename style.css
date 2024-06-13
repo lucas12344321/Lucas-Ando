@@ -16,7 +16,6 @@ body{
 span{
     color: var(--verde);
 }
-
 .conteudo-principal{
     display: flex;
     flex-direction: column;
