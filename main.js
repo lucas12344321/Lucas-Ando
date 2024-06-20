@@ -10,6 +10,16 @@ tempo[3].textContent = "olá"
 const tempoObjetivo4 = new Date(2024,7,30);
 tempo[4].textContent = "olá"
 const agora = new Date();
+let segundos;
+let  minutos;
+let horas;
+let dias;
+segundos = (tempoObjetivo1-agora)/1000
+minutos = segundos/60
+horas = minutos/60
+dias = horas/24
+tempoObjetivo1 - agora
+tempo[0].textContent = tempoObjetivo1 - agora
 console.log(tempo);
 for(let i = 0; 1 < botoes.length ; i++){
     botoes[i].onclick = function() {
